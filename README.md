@@ -32,3 +32,6 @@ yarn create react-app --template snowpack-tailwind
 - Tailwind CSS - edit `tailwind.config.js` and `postcss.config.js` to change plugin & build settings.
 
 - Snowpack - edit `snowpack.config.js` to change plugin & mount settings.
+
+## Licnese
+MIT
