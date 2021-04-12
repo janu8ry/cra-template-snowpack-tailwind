@@ -1,0 +1,29 @@
+body {
+    transition: background-color 0.3s linear;
+    text-align: center;
+    @apply bg-gray-600;
+}
+
+.react-button {
+    @apply py-2 px-4 font-semibold rounded-lg shadow-md text-white bg-indigo-400 hover:bg-indigo-900 align-middle;
+}
+
+.tailwind-button {
+    @apply py-2 px-4 font-semibold rounded-lg shadow-md text-white bg-purple-400 hover:bg-purple-900 align-middle;
+}
+
+.snowpack-button {
+    @apply py-2 px-4 font-semibold rounded-lg shadow-md text-white bg-green-400 hover:bg-green-900 align-middle;
+}
+
+.welcome-h1 {
+    @apply text-4xl font-bold text-center text-blue-500;
+}
+
+.welcome-h2 {
+    @apply text-2xl font-bold text-center text-green-200;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
